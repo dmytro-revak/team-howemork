@@ -41,3 +41,18 @@
 .navbar-default .navbar-nav li a:focus {
     color: #17b8e7;
 }
+
+/*section#2*/
+.sec-2 {
+    height: 60vh;
+    background: url(../img/banner-img.png) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+}
+.promo-block {
+    margin-top: 15vh;
+    text-align: center;
+
+}
