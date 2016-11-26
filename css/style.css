@@ -1,1 +1,43 @@
-/* styles */
+/*general*/
+.main {
+    margin-top: 20px;
+}
+.section-padding {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.blue-text {
+    color: #17b8e7;
+}
+.white-text {
+    color: #ffffff;
+}
+.section-header {
+    text-align: center;
+    padding-bottom: 3vh;
+}
+.subheader {
+    padding-bottom: 2vh;
+}
+
+/*section#1*/
+.navigation {
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 0px;
+    background: #ffffff;
+}
+.brand-logo {
+    height: 10vh;
+    padding: 0;
+    margin-left: 10vw;
+}
+.navbar-nav li a {
+    line-height: 3.5;
+}
+.navbar-default .navbar-nav li a:hover {
+    color: #17b8e7;
+}
+.navbar-default .navbar-nav li a:focus {
+    color: #17b8e7;
+}
