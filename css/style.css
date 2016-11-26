@@ -110,11 +110,20 @@
     text-align: center;
 }
 .sect-6-bt {
+
+
+/* styles */
+/*section#10*/
+.section-10 {
+    background: #000000;
+}
+.sect-10-bt {
     background: inherit;
     border: 1px solid #17b8e7;
     color: #17b8e7;
     border-radius: 0.3vh;
 }
+
 .sect-6-bt:hover {
     background: #17b8e7;
     color: inherit;
@@ -122,4 +131,22 @@
 /* section #7-8 */
 .section-7-8 {
 	height: 100vh;
+
+.sect-10-bt:hover {
+    background: #17b8e7;
+    color: inherit;
+}
+
+
+
+/*section#11*/
+.class-7 {
+    background: #151414;
+    height: 6vh;
+    text-align: center;
+    line-height: 3.5;
+    color: #ffffff;
+}
+.class-7 p {
+    margin: 0;
 }
