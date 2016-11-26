@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*general*/
 .main {
     margin-top: 20px;
@@ -90,3 +89,33 @@
 
 
 /*section#10-11*/
+
+/*section#5*/
+.section-subheader {
+    margin-top: 0;
+}
+.section-devider {
+    margin-bottom: 2vh;
+}
+
+/*section#6*/
+.section-6 {
+    background: #040503;
+    padding-bottom: 6vh;
+}
+.section-6 a {
+    color: #17b8e7;
+}
+.sect-6-button {
+    text-align: center;
+}
+.sect-6-bt {
+    background: inherit;
+    border: 1px solid #17b8e7;
+    color: #17b8e7;
+    border-radius: 0.3vh;
+}
+.sect-6-bt:hover {
+    background: #17b8e7;
+    color: inherit;
+}
