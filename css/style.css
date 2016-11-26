@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*general*/
 .main {
     margin-top: 20px;
@@ -58,6 +59,14 @@
 }
 
 /*section#10-11*/
+=======
+/* styles */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+>>>>>>> 3032528f0f344c7f6e703b547a7498016037616b
 .footer {
 	margin: 0px;
 	padding: 0px;
@@ -65,6 +74,10 @@
 	height: 100%;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3032528f0f344c7f6e703b547a7498016037616b
 .bottom-content {
 	background: #040503;
 	margin: 4% 0px 0px 4%;
@@ -88,6 +101,10 @@
 	margin-left: 13px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3032528f0f344c7f6e703b547a7498016037616b
 .bottom-right-first {
 	color: white;
 	height: 100%;
