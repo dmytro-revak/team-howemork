@@ -57,6 +57,44 @@
 
 }
 
+/* section#3 */
+
+.section-padding {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.section-3-title {
+    padding-top: 2.6vh;  
+    padding-left: 7vh;
+    font-weight: bold;
+}
+.section-3-links {
+    margin: 0.5vh 0vh;
+}
+.section-3-img-links {
+    height: 7vh;
+}
+
+/* section#4 */
+
+.section-4 {
+    background: #17b8e7;
+    color: #ffffff;
+    padding-bottom: 8vh;
+}
+
+.section-4-first-title {
+    padding-left: 2vh;
+}
+
+.section-4-second-title {
+    padding-left: 4.5vh;
+}
+
+.section-4-img {
+    margin-bottom: 5px;
+}
+
 /*section#10-11*/
 .footer {
 	margin: 0px;
