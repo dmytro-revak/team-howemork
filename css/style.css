@@ -93,7 +93,7 @@
     background: #040503;
     padding-bottom: 6vh;
 }
-.sect-6-img {
+.sect-img {
     width: 100%;
 }
 .section-6 a {
@@ -182,13 +182,13 @@
 
 
 /*section#11*/
-.class-7 {
+.footer-content {
     background: #151414;
-    height: 6vh;
+    height: 50px;
     text-align: center;
     line-height: 3.5;
     color: #ffffff;
 }
-.class-7 p {
+.footer-content p {
     margin: 0;
 }
