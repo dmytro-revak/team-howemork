@@ -1,1 +1,1 @@
-https://yuriigr.github.io/team-howemork/index.html
+https://yuriigr.github.io/team-homework/
