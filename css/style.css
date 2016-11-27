@@ -1,7 +1,4 @@
 /*general*/
-.main {
-    margin-top: 20px;
-}
 .section-padding {
     padding-left: 4vw;
     padding-right: 4vw;
@@ -54,7 +51,6 @@
 .promo-block {
     margin-top: 15vh;
     text-align: center;
-    
 }
 
 /*section#3*/
@@ -124,7 +120,6 @@
     margin-bottom: 2vh;
 }
 
-
 /*section-9*/
 .section-9 {
     background: #cfd0d0;
@@ -137,7 +132,6 @@
     background: black;
     height: 110px;
     width: 110px;
-    /*height: 15vh;*/ /*not sure about px*/
 }
 .section-9 p {
     color: #17b8e7;
@@ -154,7 +148,6 @@
     height: 5.4vh;
 }
 
-
 /*section#10*/
 .section-10 {
     background: #000000;
@@ -162,7 +155,6 @@
     padding-bottom: 4vh;
 }
 .bottom-content-left {
-    width: 33vw;
     margin-left: 25px;
 }
 .bottom-content-right {
@@ -180,7 +172,6 @@
     color: inherit;
 }
 
-
 /*section#11*/
 .footer-content {
     background: #151414;
@@ -191,4 +182,94 @@
 }
 .footer-content p {
     margin: 0;
+}
+
+/*nav collapse fix*/
+
+@media only screen and (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+@media only screen and (min-width: 292px) and (max-width: 768px) {
+    .navbar {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .brand-logo {
+        height: 13vh;
+        margin-left: 0;
+    }
+    .navbar-toggle {
+        margin-top: 3%;
+    }
+    .sec-2 {
+        height: 50vh;
+    }
+    .section-padding {
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+    }  
+    .promo-block {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    .navbar {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .brand-logo {
+        height: 13vh;
+    }
+    .navbar-toggle {
+        margin-top: 2.5%;
+    }
+    .section-padding {
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+    }  
+    .promo-block {
+        margin-top: 5%;
+    }
+}
+    
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-padding {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }  
 }
